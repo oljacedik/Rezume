@@ -1,72 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Моё резюме</title>
-</head>
-<body>
-    <h1>Img with URL</h1>
-    <img src="https://www.sunhome.ru/i/wallpapers/73/krasnoe-selo.orig.jpg" width="150px" 
-    alt="Не распознаёт">
-    <h1>Img Local</h1>
-    <img src="Wer/IMG-400aabccf20fe953875b302a71419e88-V.jpg" width="150px" alt="Не распознаёт">
-   <h1> Ольга Цедик</h1>
-   <p>Я главный специалист <strong>Беларусбанка</strong>.</p>
-   <p> Я люблю путешествовать, <em>программировать и читать книги.</em></p>
-   <a href="https://www.instagram.com/olgatsedik/"target="_blank">Инстаграм</a>
-   <br>
-   <a href="https://vk.com/feed"target="_blank">Контакт</a>
-    <h1>Мои хобби</h1>
-    <ol>
-        <li>Чтение</li>
-        <li>Программирование</li>
-        <li>Плавание</li>
-        <li>Бег</li>
-        <li>Учеба</li>
-    </ol>
-    <ul>
-        <li>Чтение</li>
-        <li>Программирование</li>
-        <li>Плавание</li>
-        <li>Бег</li>
-        <li>Учеба</li>  
-    </ul>
-    <h1>Таблицы</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Названия</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>   
-        </thead>
-       <tbody>
-        <tr>
-            <td>Экономист</td>
-            <td>Главный специалист</td>
-            <td>2009-2022</td>
-        </tr>
-       </tbody>
-       
-    </table>
-    <h1>Связаться со мной</h1>   
-    <form>
-        <div>
-            <label for="name">Ваше имя</label>
-            <input type="tex" id="name" placeholder="Введите имя">
-        </div>
-        <div>
-             <label for="email">Email</label>
-             <input type="email" id="email" placeholder="Введите Email">
-        </div>
-         <div>
-             <label for="message">Сообщение</label>
-             <br>
-             <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
-         </div>
-                <input type="submit" value="Отправить!">
-    </form>
-</body>
+ </head>
+  <body>
+    <div class="container">
+        <h1>Моё резюме</h1>
+     <div class="card-in-top">
+        <img src="1.jpg" width="150px" 
+        alt="Не распознаёт">
+      </div>
+
+      
+        <h1> Ольга Индюхина</h1>
+      <div class="card bg-yellow">
+          <p>Я главный специалист <strong>Беларусбанка</strong>.</p>
+          <p> Я люблю путешествовать, <em>программировать и читать книги.</em></p>
+          <a href="https://www.instagram.com/olgatsedik/"target="_blank">Инстаграмм</a>
+          <br>
+          <a href="https://vk.com/id130846670"target="_blank">Контакт</a>
+      </div>
+
+    
+      <h1>Мои хобби</h1>
+      <div class="card bg-red">
+          <ol>
+            <li>Чтение</li>
+            <li>Программирование</li>
+            <li>Плавание</li>
+            <li>Бег</li>
+            <li>Учеба</li>
+          </ol>
+          <ul>
+            <li>Чтение</li>
+            <li>Программирование</li>
+            <li>Плавание</li>
+            <li>Бег</li>
+            <li>Учеба</li>  
+          </ul>
+      </div>
+
+      <h1>Таблицы</h1>
+      <div class="card bg-green">
+          <table>
+            <thead>
+                  <tr>
+                    <th>Названия</th>
+                    <th>Должность</th>
+                    <th>Год</th>
+                  </tr>   
+              </thead>
+            <tbody>
+                  <tr>
+                    <td>Экономист</td>
+                    <td>Главный специалист</td>
+                      <td>2009-2022</td>
+                  </tr>
+            </tbody>
+        </table>
+      </div>
+    
+      <h1>Связаться со мной</h1>   
+      <form>
+          <div>
+              <label for="name">Ваше имя</label>
+              <input type="tex" id="name" placeholder="Введите имя">
+          </div>
+          <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Введите Email">
+          </div>
+          <div>
+              <label for="message">Сообщение</label>
+              <br>
+              <textarea id="message" cols="30" rows="10" placeholder="Введите сообщение"></textarea>
+          </div>
+              <input class="btn" type="submit" value="Отправить!">
+      </form> 
+    </div>
+  </body>
 </html>
